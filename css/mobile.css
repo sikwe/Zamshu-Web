@@ -1,0 +1,66 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+#values .value {
+   display: block;
+   padding: 1rem;
+}
+
+#values .value .c-values {
+   text-align: left;
+}
+
+/* Smartphones */
+
+@media(max-width: 500px) {
+ 
+   #navbar {
+      text-align: center;
+      display: block;
+   }
+   #navbar img {
+      margin: 0;
+   }
+
+   #navbar ul {
+      display: block;
+      text-align: center;
+   }
+
+   #navbar ul li {
+      padding: 1rem;
+   }
+
+   #who {
+      display: block;
+   }
+
+   #who .who-img {
+      height: 400px;
+   }
+
+   #clients .items img {
+      width: 50%;
+   }
+   #clients .items div:last-child {
+      display: none;
+   }
+
+   #contact {
+      display: block;
+   }
+
+   #contact .map {
+      height: 200px;
+      border-top : 3px solid #F07E07;
+   }
+
+   #main-footer .container-footer {
+      display: block;
+   }
+
+   #main-footer .container-footer .f-details {
+      margin-bottom: 2rem;
+   }
+}

@@ -1,0 +1,8 @@
+/* Align */
+#values .value .c-values {
+   text-align: left;
+
+}
+#contact .map {
+   flex: 2;
+}
